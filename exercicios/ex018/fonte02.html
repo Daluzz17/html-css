@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'Medieval';
+            src: url('fontes/Olondona.otf') format('opentype'), url(fontes/OldLondon.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format ()
+            -opentype (otf)
+            - truetype (ttf)
+            -embedded-opentype(Apple Advanced Typography)
+            -svg
+            */
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            font-family: 'Medieval', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, perspiciatis laborum porro voluptatibus dolor nostrum sed. Facilis placeat molestiae blanditiis saepe odio, dicta repudiandae, repellat similique, aut accusamus sit nulla.</p>
+    
+</body>
+</html>
